@@ -1,0 +1,9 @@
+@use 'fonts';
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins&family=Source+Sans+Pro&display=swap');
+
+$bg-color: black;
+
+body {
+    background-color: $bg-color;
+}

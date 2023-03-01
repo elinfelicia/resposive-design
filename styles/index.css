@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins&family=Source+Sans+Pro&display=swap");
+.main__title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 84px;
+}
+
+.main__info {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.nav__logo {
+  font-family: "Baloo 2", cursive;
+  color: white;
+  font-size: 24px;
+  letter-spacing: -0.25px;
+}
+
+.nav__item {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+}

@@ -1,0 +1,26 @@
+$text-color: white;
+$main-text-font: 'Source Sans Pro', sans-serif;
+$title-font: 'Poppins', sans-serif;
+$logo-font: 'Baloo 2', cursive;
+
+.main__title {
+    font-family: $title-font;
+    color: $text-color;
+    font-size: 84px;
+}
+.main__info {
+    font-family: $main-text-font;
+    color: $text-color;
+    font-size: 22px;
+}
+.nav__logo {
+    font-family: $logo-font;
+    color: $text-color;
+    font-size: 24px;
+    letter-spacing: -0.25px;
+}
+.nav__item {
+    font-family: $main-text-font;
+    color: $text-color;
+    font-size: 16px;
+}
