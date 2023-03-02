@@ -12,12 +12,14 @@ $logo-font: 'Baloo 2', cursive;
     font-family: $main-text-font;
     color: $text-color;
     font-size: 22px;
+    line-height: 34px;
 }
 .nav__logo {
     font-family: $logo-font;
     color: $text-color;
     font-size: 24px;
     letter-spacing: -0.25px;
+    text-decoration: none;
 }
 .nav__item {
     font-family: $main-text-font;

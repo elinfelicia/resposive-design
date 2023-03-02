@@ -9,7 +9,11 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .nav {
     max-width: 900px;
@@ -26,6 +30,9 @@ body {
         align-items: center;
             .nav__item {
                 margin: 0 14px 0 14px;
+            }
+            .nav__item:hover {
+                scale: 1.2;
             }
     }
 }
@@ -50,4 +57,9 @@ body {
         &__img {
         margin: 31px 10px 0 10px;
         }
+}
+@media only screen and (max-width: 650px) {
+    .nav__list {
+        display: none;
+    }
 }

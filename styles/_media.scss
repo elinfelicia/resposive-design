@@ -2,8 +2,8 @@
     .main__title {
         font-size: 72px;
     }
-    .main__img {
-        
+    .main__info {
+        line-height: 33px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -12,9 +12,8 @@
     }
     .main__info {
         font-size: 12px;
-    }
-    .nav__list {
-        display: none
+        max-width: 220px;
+        line-height: 18px;
     }
 }
 

@@ -9,6 +9,7 @@
   font-family: "Source Sans Pro", sans-serif;
   color: white;
   font-size: 22px;
+  line-height: 34px;
 }
 
 .nav__logo {
@@ -16,6 +17,7 @@
   color: white;
   font-size: 24px;
   letter-spacing: -0.25px;
+  text-decoration: none;
 }
 
 .nav__item {
@@ -29,6 +31,9 @@
   .main__title {
     font-size: 72px;
   }
+  .main__info {
+    line-height: 33px;
+  }
 }
 @media screen and (max-width: 650px) {
   .main__title {
@@ -36,9 +41,8 @@
   }
   .main__info {
     font-size: 12px;
-  }
-  .nav__list {
-    display: none;
+    max-width: 220px;
+    line-height: 18px;
   }
 }
 body {
@@ -53,6 +57,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  min-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .nav {
@@ -83,6 +92,9 @@ body {
 }
 .nav__navbar .nav__item, .nav__list .nav__item {
   margin: 0 14px 0 14px;
+}
+.nav__navbar .nav__item:hover, .nav__list .nav__item:hover {
+  scale: 1.2;
 }
 
 .main {
@@ -115,4 +127,10 @@ body {
 }
 .main__img {
   margin: 31px 10px 0 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .nav__list {
+    display: none;
+  }
 }
