@@ -1,9 +1,53 @@
 @use 'fonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins&family=Source+Sans+Pro&display=swap');
-
+@import 'media';
 $bg-color: black;
 
 body {
     background-color: $bg-color;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+.nav {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__navbar, &__list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+            .nav__item {
+                margin: 0 14px 0 14px;
+            }
+    }
+}
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    max-width: 900px;
+    min-height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    &__title {
+        margin: 14px;
+    }    
+    &__info {
+            max-width: 575px;
+            margin: 14px;
+        }
+        &__img {
+        margin: 31px 10px 0 10px;
+        }
 }

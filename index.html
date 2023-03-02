@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Document</title>
+    <title>Head.</title>
 </head>
 <body>
     <header>
         <nav class="nav">
             <p class="nav__logo">Head.</p>
-            <ul class="nav__navbar">
-                <li class="nav__item"><a href="#">Works</a></li>
-                <li class="nav__item"><a class="nav__item" href="#">Services</a></li>
-                <li class="nav__item"><a class="nav__item" href="#">Contacts</a></li>
-            </ul>
-            <img src="images/nav-icon.svg" alt="expand menu icon">
+            <div class="nav__navbar">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__item" href="#">Works</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#">Services</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#">Contacts</a></li>
+                </ul>
+                <img class="nav__item nav__icon" src="images/nav-icon.svg" alt="expand menu icon">
+            </div>
         </nav>
     </header>
     <main>
         <section class="main">
             <h1 class="main__title">Japan</h1>
             <p class="main__info">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-            <img class="main__img" src="images/mt-fuji-l.jpg" alt="Mt. Fuji in black and white">
+            <div class="main__img">
+                <picture>
+                    <source media="(min-width: 901px)" srcset="images/mt-fuji-l.jpg">
+                    <source media="(max-width: 900px)" srcset="images/mt-fuji-m.jpg">
+                    <source media="(max-width: 650px)" srcset="images/mt-fuji-s.jpg">
+                    <img src="images/mt-fuji-l.jpg" alt="Mt. Fuji in black and white">
+                </picture>
+            </div>
         </section>
     </main>
 </body>
